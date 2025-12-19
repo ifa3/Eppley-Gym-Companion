@@ -89,6 +89,8 @@ Final Project/
 
 git clone https://github.com/your-username/eppley-gym-companion.git
 
+- You should change where it says your username. 
+
 - Navigate into the project folder:
 
 cd eppley-gym-companion
