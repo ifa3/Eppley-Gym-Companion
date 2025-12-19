@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eppley Gym Companion - Companion</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="branding">
+        <span>UMD</span>
+        <span>Eppley Gym Companion</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="companion.html">Companion</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>My UID entry and crowd tools</h1>
+        <p>
+          Use this page to track your one time UID entry and save a sample crowd update.
+        </p>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>One-time UID entry</h2>
+          <p id="uid-status">Showing default UID entry status (demo).</p>
+
+          <label for="uid-input">
+            Enter your UID (numbers only):
+            <input id="uid-input" type="text" inputmode="numeric" pattern="[0-9]*" />
+          </label>
+          <br /><br />
+
+          <button id="uid-button" class="button-primary">Mark UID entry used</button>
+          <p class="status" id="uid-message"></p>
+        </article>
+
+        <article class="card">
+          <h2>Sample crowd update</h2>
+          <p>
+            Save a simple crowd level for the current hour; the home page will read it
+            (demo).
+          </p>
+          <label>
+            Level:
+            <select id="crowd-level-select">
+              <option value="Low">Low</option>
+              <option value="Moderate">Moderate</option>
+              <option value="High" selected>High</option>
+            </select>
+          </label>
+          <br /><br />
+          <button id="crowd-update-button" class="button-primary">
+            Save crowd level
+          </button>
+          <p class="status" id="crowd-update-message"></p>
+        </article>
+      </section>
+    </main>
+
+    <script src="companion.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eppley Gym Companion - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.13/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="branding">
+        <span>UMD</span>
+        <span>Eppley Gym Companion</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="companion.html">Companion</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Plan your visit to Eppley</h1>
+        <p>
+          See estimated crowd levels, basic hours, and weather before you walk to the gym.
+        </p>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Current crowd level</h2>
+          <p id="crowd-text">Loading current crowd level…</p>
+          <p id="crowd-badge"></p>
+        </article>
+
+        <article class="card">
+          <h2>Today&rsquo;s hours</h2>
+          <div id="hours-today">Loading hours…</div>
+        </article>
+
+        <article class="card">
+          <h2>Weather at Eppley</h2>
+          <div id="weather">Loading...</div>
+        </article>
+      </section>
+
+      <section class="card" style="margin-top: 1.5rem">
+        <h2>Sample crowd trend</h2>
+        <canvas id="crowdChart" height="120"></canvas>
+      </section>
+    </main>
+
+
+    <script src="home.js"></script>
+  </body>
+</html>
