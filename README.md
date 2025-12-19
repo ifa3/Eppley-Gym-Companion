@@ -34,10 +34,9 @@ GitHub Repository
 Repository Link:
 https://github.com/ifa3/Eppley-Gym-Companion 
 
-<img width="1438" height="763" alt="Image" src="https://github.com/user-attachments/assets/888ed97d-7bcf-4da6-a1bd-fe1d92f9d9c8" />
+<img width="1438" height="763" alt="Image" src="https://github.com/user-attachments/assets/dcba2e40-f815-4aed-bf8a-23022ee0f260" />
 
-<img width="1440" height="769" alt="Image" src="https://github.com/user-attachments/assets/66950e2b-402c-4f9b-8d9a-c193ba34d4aa" />
-
+<img width="1440" height="769" alt="Image" src="https://github.com/user-attachments/assets/d7a82adc-cee8-464b-a7d5-ceca23f79c71" />
 
 ### Developer Manual
 
